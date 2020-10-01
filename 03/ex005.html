@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DOM</title>
+    <style>
+        #msg {
+            color:rgb(0, 0, 0);
+        }
+      body {
+          background-color: rgb(1, 177, 153);
+          color: white;
+          font: normal 18px Arial;
+      }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos com <b>DOM</b></h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar DOM em JavaScript</p>
+    <div id ="msg">Clique em mim</div><br>
+    <script>
+        
+        var p1 = document.getElementsByTagName('p')[1]// Ordem entre [] de qual tag você quer.
+        document.write('O que está escrito na linha preta é: ' + p1.innerText)//innetText copia o texto referido
+        p1.style.color = 'black'//estilo do p1
+        var d = document.querySelector('div#msg')//obter msg
+        d.style.backgroundColor = '#cecece' //estilo d
+    </script>
+</body>
+</html>

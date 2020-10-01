@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contador de Letras</title>
+
+   <style>
+     body {
+
+         font: normal 30px courier; 
+     }
+     h1 {
+
+         color: rgb(177, 109, 241);
+     }
+   </style>
+
+</head>
+<body>
+    <h1>Contador de Letras</h1>
+    <script>
+       var nome = window.prompt('Digite seu nome sem espaçamentos')
+       document.write(`Olá, <strong>${nome}</strong> seu nome tem ${nome.length} letras.<br>`) //length contabiliza os caracteres
+       document.write(`Seu nome em letras maiúsculas é, <strong>${nome.toUpperCase()}</strong>.<br>`) // toUpperCase() letras maiúsculas
+       document.write(`Seu nome em letras minúsculas é, <b>${nome.toLowerCase()}</b>.`) // toLowerCase() letras minúsculas
+    </script>
+    </body>
+</html>
