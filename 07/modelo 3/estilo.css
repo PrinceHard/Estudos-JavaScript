@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(70, 140, 233);
+    font-family: courier;
+    font-size: 25px;
+
+}
+
+div {
+    
+    padding: 12px;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+
+section {
+    background: white;
+    border-radius: 15px;
+    width: 780px;
+    padding: 15px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.301);
+    
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+#txtano {
+    width: 68px;
+    height: 27px;
+}
+
+#butao {
+    width: 70px;
+    height: 30px;
+}
+
+#foto {
+    padding-top: 25px; 
+}
