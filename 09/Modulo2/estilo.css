@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(146, 122, 236);
+}
+
+header {
+    text-align: center;
+    font-family: helvetica;
+    font-size: 30px;
+    color: white;
+}
+
+section {
+    font-family: Verdana;
+    font-size: 25px;
+    background-color: white;
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgb(39, 39, 39);
+    margin: auto;
+    padding: 20px;
+}
+
+footer {
+    font-style: italic;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+}
+
+#txtn {
+    width: 75px;
+    height: 25px;
+}
+
+#ver {
+    width: 75px;
+    height: 32px;
+}
+
